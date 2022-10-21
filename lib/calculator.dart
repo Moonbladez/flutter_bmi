@@ -18,13 +18,13 @@ class Calculator {
     } else if (_bmi > 18.5) {
       return "normal";
     } else {
-      return "overweight";
+      return "underweight";
     }
   }
 
   String getInterpritation() {
     if (_bmi >= 25) {
-      return "You have a higher than normal nbody weight. Try to exercise more";
+      return "You have a higher than normal body weight. Try to exercise more";
     } else if (_bmi > 18.5) {
       return "You have a normal bodyweight. Good job!";
     } else {
